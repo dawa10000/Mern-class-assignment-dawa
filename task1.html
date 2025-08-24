@@ -44,7 +44,7 @@
 
         main {
             width: 80vw;
-            margin: 27px;
+            /* margin: 27px; */
             padding-left: 200px;
             height: 500px;
             background-color: rgba(244, 247, 249, 0.919);
@@ -56,6 +56,7 @@
         .text {
             display: flex;
             flex-direction: column;
+            gap: 10px;
 
         }
 
@@ -67,9 +68,7 @@
         }
 
         .text p {
-            width: 424px;
-            margin-top: 20px;
-
+            line-height: 0.05;
         }
 
         .email {
@@ -87,6 +86,8 @@
             height: 35px;
             color: white;
         }
+
+    
     </style>
 </head>
 
@@ -114,8 +115,10 @@
             <span>Building digital</span>
             <span>products, brands</span>
             <span style="color: rgba(68, 37, 243, 0.807);">experience.</span>
-            <p>a <strong>Product Designer</strong> and <strong>Visual Developer</strong> in SF. I specialize in UI/UX
-                Design, Responsive Web Design, and Visual Development.</p>
+            <p>a <strong>Product Designer</strong> and <strong>Visual Developer</strong> in SF.</p>
+            <p>I specialize in UI/UX Design,
+            Responsive Web Design,</p> 
+            <p>and Visual Development.</p>
             <div class="email">
                 <input type="email" placeholder="Email address">
                 <button style="background-color: rgba(68, 37, 243, 0.807);">Connect With Me</button>
